@@ -4,78 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boutique en Ligne</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="bg-light">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">Ma Boutique</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#produits">Produits</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
+    <!-- En-tête -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
+        <h1>Bienvenue dans notre boutique en ligne</h1>
     </header>
 
-    <section id="produits" class="container my-5">
-        <h2 class="text-center">Nos Produits</h2>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card mb-4">
-                    <img src="images/ordin.jpg" class="card-img-top" alt="Produit 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Ordinateur</h5>
-                        <p class="card-text">Tres performent avec 8Go de Ram <br>
-                        et 500Go SSD</p>
-                        <a href="#" class="btn btn-primary">Acheter maintenant</a>
-                    </div>
-                </div>
+    <!-- Section Produits -->
+    <section id="produits">
+        <h2>Nos Produits</h2>
+        <div class="produit-container">
+            <div class="produit-card">
+                <img src="images/ordin.jpg" alt="Ordinateur">
+                <h3>Ordinateur</h3>
+                <p>Tres performent avec 8Go de Ram et 500Go SSD.</p>
+                <button>Acheter maintenant</button>
             </div>
-            <div class="col-md-3">
-                <div class="card mb-4">
-                    <img src="images/souris.jpg" class="card-img-top" alt="Produit 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Souris</h5>
-                        <p class="card-text">Souris connectée</p>
-                        <a href="#" class="btn btn-primary">Acheter maintenant</a>
-                    </div>
-                </div>
+            <div class="produit-card">
+                <img src="images/souris.jpg" alt="Produit 2">
+                <h3>Souris</h3>
+                <p>Souris connectée</p>
+                <button>Acheter maintenant</button>
             </div>
-            <div class="col-md-3">
-                <div class="card mb-4">
-                    <img src="images/clavier.jpg" class="card-img-top" alt="Produit 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Clavier</h5>
-                        <p class="card-text">Clavier connectée</p>
-                        <a href="#" class="btn btn-primary">Acheter maintenant</a>
-                    </div>
-                </div>
+            <div class="produit-card">
+                <img src="images/clavier.jpg"  alt="Produit 3">
+                <h3>Clavier</h3>
+                <p>Clavier connectée.</p>
+                <button>Acheter maintenant</button>
             </div>
-            <div class="col-md-3">
-                <div class="card mb-4">
-                    <img src="images/ecran.jpg" class="card-img-top" alt="Produit 4">
-                    <div class="card-body">
-                        <h5 class="card-title">Ecran</h5>
-                        <p class="card-text">ecran très tactile</p>
-                        <a href="#" class="btn btn-primary">Acheter maintenant</a>
-                    </div>
-                </div>
+            <div class="produit-card">
+                <img src="images/ecran.jpg" alt="Produit 4">
+                <h3>Ecran</h3>
+                <p>ecran très tactile.</p>
+                <button>Acheter maintenant</button>
             </div>
         </div>
     </section>
 
-    <footer class="bg-light text-center py-3">
-        <p>&copy; 2023 Ma Boutique. Tous droits réservés.</p>
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Boutique en Ligne. Tous droits réservés.</p>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
